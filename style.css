@@ -1,0 +1,28 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.ol-control button {
+  background-color: rgba(0,0,0,.5);
+}
+.ol-control button:focus, .ol-control button:hover {
+    text-decoration: none;
+    background-color: rgba(0,0,0,.7);
+}
+.ol-scale-line {
+    background: rgba(0,0,0,.3);
+}
+.ol-mouse-position {
+    top: auto;
+    bottom: 8px;
+    right: 8px;
+    position: absolute;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
